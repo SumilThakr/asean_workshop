@@ -34,21 +34,10 @@ OutputFile = "inmap_test_results.shp"
 
 #[aep.InventoryConfig]
 #COARDSYear = 2016
-InputUnits = "kg"
+#InputUnits = "kg"
 
 [aep.InventoryConfig.COARDSFiles]
-#00agr00000 = "emissions/ceds_agr.nc"
-#ene = "emissions/ceds_ene.nc"
-#00ind00000 = "emissions/ceds_ind.nc"
-#00rco00000 = "emissions/ceds_rco.nc"
-#shp = "emissions/ceds_shp.nc"
-#00slv00000 = "emissions/ceds_slv.nc"
-#00tra00000 = "emissions/ceds_tra.nc"
-#00wst00000 = "emissions/ceds_wst.nc"
-#biovoc = "emissions/biovoc.nc"
-#bioburn = "emissions/bioburn.nc"
-#dust = "emissions/dust.nc"
-#soilnox = "emissions/soilnox.nc"
+#gridemis = "gridded_emissions.nc"
 
 [aep.SpatialConfig]
 SpatialCache = "spatialsrgs_004x003"
@@ -127,8 +116,6 @@ PopThreshold= 100000.0
 PopConcThreshold= 0.000000001
 
 # CensusFile is the path to the shapefile holding population information.
-#CensusFile= "/home/hill0408/sthakrar/sthakrar/evaldata_v1.3/April17/FINAL_ALL_SECTIONS.shp"
-# CensusFile= "TEST_worldpop_2020-nonan.ncf"
 CensusFile= "regrid/output.shp"
 
 # CensusPopColumns is a list of the data fields in CensusFile that should
@@ -144,7 +131,7 @@ PopGridColumn= "TotalPop"
 
 # MortalityRateFile is the path to the shapefile containing baseline
 # mortality rate data.
-#MortalityRateFile= "/home/hill0408/sthakrar/sthakrar/evaldata_v1.3/January19/CorrectMortalityData.shp"
+#MortalityRateFile= "MortalityData.shp"
 
 # MortalityRateColumns maps the names of each input population group to the name
 # of the field in MortalityRateFile that contains its respective baseline

@@ -19,7 +19,7 @@ Which will generate results in Shapefile format (`inmap_test_results.shp`) showi
 
 # InMAP Modelling for the whole ASEAN region
 
-The grid file, `test_grid.gob.zip`, is only for simulations in a test region suitable for this workshop. the InMAP grid for the entire ASEAN region can be downloaded from [here](https://drive.google.com/file/d/1VBXwT0EPHKgrVhV_axgMxf1_9g_Xw7Rp/view?usp=sharing).
+The grid file, `test_grid.gob.zip`, is only for simulations in a test region suitable for this workshop. the InMAP grid for the entire ASEAN region can be downloaded from [here](https://drive.google.com/file/d/1VBXwT0EPHKgrVhV_axgMxf1_9g_Xw7Rp/view?usp=sharing). To use this grid instead, simply change the `VariableGridData` parameter in the configuration file.
 
 # Installing InMAP.
 

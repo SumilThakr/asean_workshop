@@ -12,7 +12,7 @@ EmissionsShapefiles = [
 ]
 
 # EmissionUnits gives the units that the input emissions are in.
-# Acceptable values are 'tons/year' and 'kg/year'.
+# Acceptable values are 'tons/year', 'kg/year', and 'ug/s'.
 EmissionUnits = "tons/year"
 
 #static = true
